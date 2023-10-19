@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.mainframe{
+    background-color:#3B4664;
+    margin:2em;
+    height:35em;
+}
+.container
+{
+    width:50%;
+    height:50%;
+    margin: 2em auto auto 33em;
+    padding-top:5em;
+}
+.display
+{
+    background-color: #181F32;
+    height:85px;
+    width:304px;
+    border-radius: 7px;
+    font-size: 30px;
+    text-align: right;
+    color:whitesmoke;
+    padding-top: 45px;
+    padding-right:10px;
+    box-sizing: border-box;
+}
+.Keys
+{
+    margin-top:1em;
+    background-color: #252D44;
+    width:19em;
+    height:20em;
+    border-radius: 7px;
+}
+.row1
+{
+   padding-top:1.7em;
+   padding-left:0.9em;
+}
+.row
+{
+    padding-top:0.5em;
+    padding-left:0.9em;
+}
+button
+{
+    width:60px;
+    height:40px;
+    border-radius: 7px;
+    border-style:none;
+    color: #3B4664;
+    font-size: 22px;
+    font-weight:bolder;
+    margin:3px;
+}
+.del
+{
+    color:whitesmoke;
+    background-color: #647299;
+    ;
+}
+.reset
+{
+    width:130px;
+    background-color: #647299;
+    color:aliceblue;
+}
+.result
+{
+    width:130px;
+    background-color:#D13F30;
+
+    color: aliceblue;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <TITLE>Calculator App</TITLE>
+        <META name="viewport" content="width=device-width,initial-scale=1.0">
+        <META charset="UTF-8">
+        <link href="Caculator.css" rel="stylesheet">
+    </HEAD>
+    <BODY>
+        <div class="mainframe">
+          <div class="container">
+            <div class="display" id="display"></div>
+              <div class="Keys">
+                <div class="row1">
+                    <button type="button" onclick="getInput(7)">7</button>
+                    <button type="button" onclick="getInput(8)">8</button>
+                    <button type="button" onclick="getInput(9)">9</button>
+                    <button type="button" class="del" onclick="deleteDigit()">DEL</button>
+                </div>
+                <div class="row2 row">
+                    <button onclick="getInput(4)">4</button>
+                    <button onclick="getInput(5)">5</button>
+                    <button onclick="getInput(6)">6</button>
+                    <button onclick="getInput('+')">+</button>
+                </div>
+                <div class="row3 row">
+                    <button onclick="getInput(1)">1</button>
+                    <button onclick="getInput(2)">2</button>
+                    <button onclick="getInput(3)">3</button>
+                    <button onclick="getInput('-')">-</button>
+                </div>
+                <div class="row4 row">
+                    <button onclick="getInput('.')">.</button>
+                    <button onclick="getInput(0)">0</button>
+                    <button onclick="getInput('/')">/</button>
+                    <button onclick="getInput('x')">x</button>
+                </div>
+                <div class="row5 row">
+                    <button class="reset" onclick = "getReset()">RESET</button>
+                    <button class="result" onclick="Calculations()">=</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <script src="Calculator.js" defer></script>
+      </BODY>
+</HTML>
